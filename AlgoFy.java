@@ -45,7 +45,7 @@ import java.util.PriorityQueue;
 
  Running Time Analysis of streamSongs
  --------------------
- <From Module 4, we know that a heap is a complete binary tree, whose height can be height can be written as h =[log(n)],
+ <From Module 4, we know that a heap is a complete binary tree, whose height can be written as h =[log(n)],
  where n is the number of entries. Since the height is a logarithmic function of the number of entries, and since the
  streamSongs method updates the heap by calling upon updateQueue method, it can be stated that the running time is O(log(n)).
  The method's performance is directly proportional to the amount of entries in the heap, thus proving the O(log(n)) run time.
